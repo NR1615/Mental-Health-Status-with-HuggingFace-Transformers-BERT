@@ -38,8 +38,6 @@ def clean_statement(statement):
 
     # Remove stopwords
     words = [word for word in words if word not in stop_words]
-
-    # Rejoin words into a cleaned statement
     cleaned_statement = ' '.join(words)
 
     return cleaned_statement
