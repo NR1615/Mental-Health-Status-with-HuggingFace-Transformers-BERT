@@ -12,8 +12,6 @@ The system is designed to take raw text input, preprocess it, and classify it in
 * **Frameworks**: PyTorch, Hugging Face Transformers.
 * **Environment**: Optimized for Python 3 with GPU support.
 
-Here is how the UI looks like <img width="1470" height="956" alt="Screenshot 2026-01-08 at 5 16 14 PM" src="https://github.com/user-attachments/assets/cfe10c14-b3fa-43bb-98ba-2bf646f9ac29" />
-
 
 The evaluation:
 
