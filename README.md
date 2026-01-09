@@ -3,7 +3,7 @@
 
 This project implements a state-of-the-art Natural Language Processing (NLP) pipeline for detecting human emotions in text. It leverages the **BERT (Bidirectional Encoder Representations from Transformers)** architecture, specifically utilizing the Hugging Face `transformers` library and the **PyTorch** deep learning framework.
 
-## 🚀 Project Overview
+## Project Overview
 The system is designed to take raw text input, preprocess it, and classify it into specific emotional categories. The implementation is optimized for high-performance inference using **NVIDIA T4 GPU** acceleration (via Google Colab).
 
 ### Key Technical Specs:
