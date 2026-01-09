@@ -12,12 +12,10 @@ The system is designed to take raw text input, preprocess it, and classify it in
 * **Frameworks**: PyTorch, Hugging Face Transformers.
 * **Environment**: Optimized for Python 3 with GPU support.
 
-## 🛠️ Pipeline Features
+Here is how the UI looks like <img width="1470" height="956" alt="Screenshot 2026-01-08 at 5 16 14 PM" src="https://github.com/user-attachments/assets/cfe10c14-b3fa-43bb-98ba-2bf646f9ac29" />
 
-### 1. Data Cleaning
-The notebook includes a dedicated `clean_statement()` function to normalize input text before it reaches the model, ensuring higher accuracy by removing noise from raw strings.
 
-### 2. Tokenization
-Utilizes automated padding and truncation to convert text into tensors compatible with BERT's input requirements:
-```python
-inputs = tokenizer(text, padding=True, truncation=True, max_length=200, return_tensors='pt')
+The evaluation:
+
+<img width="789" height="686" alt="Screenshot 2026-01-08 at 6 10 53 PM" src="https://github.com/user-attachments/assets/0b2fd117-424c-4952-9bc6-b9cfe11bdf7f" />
+<img width="553" height="265" alt="Screenshot 2026-01-08 at 6 10 31 PM" src="https://github.com/user-attachments/assets/75a8bdcb-0c55-4db7-ab77-e5897ec2a298" />
